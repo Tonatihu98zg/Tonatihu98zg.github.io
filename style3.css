@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Corazones";
+    src: url("Lovely\ Balloon.ttf");
+}
+
+@font-face {
+    font-family: "Text-T";
+    src: url("Cartita.ttf");
+}
+
+.bodys{
+    background-color: rgb(192, 151, 230);
+}
+
+.Navbar{
+    background-color: rgb(105, 44, 124);
+    position: fixed;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 94%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Corazones';
+    z-index: 9;
+}
+
+.Nav_Button{
+    color: aliceblue;   
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Nav_Button:hover{
+    color: rgb(202, 138, 194);
+    transition: 1s;
+}
+
+.Text{
+    background-color:rgba(255, 223, 255, 0.747);
+    padding: 35px;
+    font-family: 'Cartita.ttf';
+    font-size: 19px;
+}
+
+.circulo{
+    position: absolute;
+    background-color:rgb(201, 97, 201);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: -35px;
+    margin-left: -15px;
+    z-index: 1;
+}
+
+.Rubi{
+    background-color:rgba(255, 223, 255, 0.747);
+}
+
+
+footer{
+    margin-top: 60px;
+    background-color: rgb(105, 44, 124);
+    color: white;
+    padding: 30px;
+    font-family: 'Corazones';
+}
+
+h1{
+    font-family: 'Corazones';
+}
+
